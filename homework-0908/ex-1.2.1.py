@@ -1,1 +1,1 @@
-print(42 * 60 + 42)
+print("Seconds: ", 42 * 60 + 42)
