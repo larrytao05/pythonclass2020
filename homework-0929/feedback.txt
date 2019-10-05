@@ -1,0 +1,7 @@
+ Hi Larry,
+ 
+ Great job! 
+ 
+ Why do you subtract len(s) from 69, not 70?
+ 
+ Elaine
