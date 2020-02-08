@@ -1,0 +1,16 @@
+What is mutable data type and immutable data type in Python?
+
+A mutable data type is a data type that can be changed after it is initialized, for example lists.
+Immutable data types cannot be changed after initialization, for example strings.
+
+What is Map/Filter/Reduce?
+
+Mapping is when you "map" a function or method onto all of the values in a list,
+for example capitalizing the first letter of every string in a list.
+Filtering is when you select a few values from a list instead of all of them.
+Reducing is when you combine all of the values of a list into one.
+
+What does list method 'sort' or 'append' return?
+
+'sort' returns void, but puts the list in a different order(default is alphabetical order or least to greatest).
+'append' returns void as well, but changes the list by addin the append value attached at the end.

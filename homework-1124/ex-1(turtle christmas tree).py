@@ -49,7 +49,24 @@ def draw_star(turtle, color, x, y, l):
     turtle.end_fill()
     turtle.penup()
 
+
+def draw_circle(turtle, r, x, y, color):
+    turtle.speed(5)
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.color(color)
+    turtle.fillcolor(color)
+    turtle.begin_fill()
+    turtle.pendown()
+
+    turtle.circle(r)
+
+    turtle.end_fill()
+    turtle.penup()
+
+
 hi = turtle.Turtle()
+turtle.bgcolor("black")
 draw_rectangle(hi, "brown", -30, -100, 50, 30)
 
 hi.penup()
@@ -70,7 +87,7 @@ hi.forward(10)
 
 draw_star(hi, "yellow", x - 10, y + 10, 60)
 hi.goto(-375, -80)
-hi.color("black")
+hi.color("white")
 hi.setheading(0)
 hi.pendown()
 hi.begin_fill()
@@ -90,6 +107,22 @@ hi.forward(750)
 hi.right(90)
 hi.forward(300)
 hi.end_fill()
+
+width = 250
+hi.penup()
+x = -100
+y = -40
+z = 5
+while width >= 30:
+    for i in range(z):
+        draw_circle(hi, random.randint(10, 20), random.randint(x, width - 40), random.randint(y, y + 30), "red")
+        z -= 1
+
+    x = x + 40
+    y = y + 60
+    width -= 80
+
+
 
 
 

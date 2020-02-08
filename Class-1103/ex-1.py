@@ -2,6 +2,8 @@
 import turtle
 import random
 
+winner = "secret"
+
 
 def race(t, n, f):
     t.penup()
