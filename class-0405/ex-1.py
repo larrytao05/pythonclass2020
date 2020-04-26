@@ -19,3 +19,4 @@ def average_dictionary(dic):
 
 dictionary = {'D0001': [22.71, 22.98, 22.74], 'D0002': [22.92, 23.04, 23.04], 'D0003': [23.47, 23.58, 23.56], 'D0004': [21.73, 21.71, 22.04], 'D0005': [21.64, 21.09, 21.28]}
 print(average_dictionary(dictionary))
+
